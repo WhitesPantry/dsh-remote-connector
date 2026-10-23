@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Remote Servers",
+    "description": "Deploy, start and connect DeepSeek Harness on remote servers over SSH."
+  }
+}
