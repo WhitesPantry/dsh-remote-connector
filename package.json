@@ -41,6 +41,14 @@
   "engines": {
     "node": ">=20"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhitesPantry/dsh-remote-connector.git"
+  },
+  "homepage": "https://github.com/WhitesPantry/dsh-remote-connector#readme",
+  "bugs": {
+    "url": "https://github.com/WhitesPantry/dsh-remote-connector/issues"
+  },
   "license": "MIT",
   "keywords": [
     "deepseek",

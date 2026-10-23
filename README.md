@@ -20,21 +20,23 @@ Manage remote servers inside DeepSeek Harness: deploy and start DSH on a remote 
 
 ## 安装 / Install
 
-### 从 GitHub 安装（推荐）
-
-先启动一次 DSH，使 profile 目录存在。然后在侧栏「插件 → 添加插件」填入：
-
-```text
-github:WhitesPantry/dsh-remote-connector#main&path:/
-```
-
-或使用命令行（CLI Web 版）：
+### 从 npm 安装（推荐）
 
 ```powershell
-dsh plugin --profile web add 'github:WhitesPantry/dsh-remote-connector#main&path:/'
+dsh plugin --profile web add 'dsh-remote-connector'
 ```
 
 安装后按提示启用插件，并**重启一次 DSH**。重启后侧栏出现「远程服务器」。
+
+### 从 GitHub 源码安装
+
+如果 npm 上还没有最新版本，也可以直接从源码装：
+
+```powershell
+dsh plugin --profile web add 'github:WhitesPantry/dsh-remote-connector#main'
+```
+
+或在内置「插件 → 添加插件」框里填入 `github:WhitesPantry/dsh-remote-connector#main`。
 
 ### 本地目录安装（开发）
 
